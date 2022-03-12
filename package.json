@@ -20,5 +20,8 @@
     "rollup-plugin-terser": "^7.0.2",
     "tslib": "^2.3.1",
     "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "snabbdom": "^3.3.1"
   }
 }
