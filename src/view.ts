@@ -17,7 +17,8 @@ function references(ctrl: Ctrl) {
   return chapter_content('References', [ul([
     li([h('a', { attrs: { href: 'https://milnepublishing.geneseo.edu/fundamentals-function-form/' } }, 'Fundamentals, Function, and Form - Theory and Analysis of Tonal Western Art Music by Andre Mount')]),
     li([h('span', 'Music in Theory and Practice Volume 1 10th Edition by Bruce Benward')]),
-    li([h('span', 'The Complete Musician An Integrated Approach to Theory, Analysis, and Listening Fourth Edition by Steven G. Laitz')])
+    li([h('span', 'The Complete Musician An Integrated Approach to Theory, Analysis, and Listening Fourth Edition by Steven G. Laitz')]),
+    li([h('a', { attrs: { href: 'https://www.youtube.com/watch?v=ICDPWP6HUbk&list=PLw9t0oA3fHkxx1PgYpiXrMUPXaOiwh6KU' } }, 'Dr. B Music Theory Lesson Youtube Playlist')])
   ])])
 }
 
