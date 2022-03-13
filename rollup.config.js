@@ -2,6 +2,7 @@ import { nodeResolve } from '@rollup/plugin-node-resolve'
 const htmlTemplate = require('rollup-plugin-generate-html-template')
 const typescript = require('@rollup/plugin-typescript')
 
+import css from 'rollup-plugin-import-css'
 const image = require('@rollup/plugin-image')
 
 const serve = require('rollup-plugin-serve')
@@ -30,6 +31,7 @@ export default args => {
     plugins: [
       nodeResolve(),
       typescript(),
+      css(),
       htmlTemplate({
         template: 'src/index.html',
         target: 'index.html'

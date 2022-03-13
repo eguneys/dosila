@@ -1,0 +1,45 @@
+/*
+#011526
+#F2F0F0
+#8C8181
+#BFB4B4
+#262626
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #262626;
+  color: #f2f0f0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #8c8181;
+  text-decoration: none;
+}
+
+.dosila {
+  display: flex;
+  flex-flow: column;
+  font-size: 1.3em;
+}
+
+.dosila section {
+  margin: 1em 0.4em;
+}
+
+.dosila section ul,
+.dosila section p {
+  margin: 0.4em;
+}
+
+h2 {
+}
+
